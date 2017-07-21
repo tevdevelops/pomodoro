@@ -1,0 +1,65 @@
+body {
+  font-family: arial;
+  background-color: gray;
+}
+#page-container {
+
+}
+.container {
+  text-align: center;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  width: 90%;
+  margin: 10% auto;
+}
+#set-times {
+
+}
+#pomo-clock {
+
+}
+#set-times, #pomo-clock {
+  background-color: black;
+  max-width: 500px;
+  color: white;
+  margin-bottom: 25px;
+}
+.row {
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+}
+.row > div > h3 {
+  display: inline-block;
+}
+.col-left, .col-right {
+  width: 50%
+}
+.col-left {
+  float: left;
+}
+.col-right {
+  float: right;
+}
+.fa:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+  transition-property: all;
+}
+.fa:hover {
+  cursor: pointer;
+  color: gray;
+}
+.fa-chevron-down {
+  padding-right: 30px;
+}
+.fa-chevron-up {
+  padding-left: 30px;
+}
+#test-clock {
+    font-family: arial;
+    font-size: 4em;
+}
